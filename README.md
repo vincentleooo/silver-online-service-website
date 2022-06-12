@@ -1,4 +1,4 @@
-# Silver Online Society
+# Silver Online Service
 
 ## Usage
 
