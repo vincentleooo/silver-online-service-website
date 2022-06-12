@@ -1,0 +1,17 @@
+.container {
+  background-color: var(--primary-color-teal);
+  color: white;
+  font-size: small;
+}
+
+.footer {
+  max-width: 1080px;
+  width: 90%;
+  margin: 0.5rem auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    font-size: x-small;
+  }
+}

@@ -1,0 +1,94 @@
+.container {
+  background-color: var(--primary-color-white);
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.main {
+  max-width: 1080px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem 0;
+  justify-content: space-between;
+}
+
+.main > span {
+  align-self: center;
+}
+
+.dropdown {
+  display: none;
+}
+
+.show {
+  display: grid;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  padding: 1rem 1.5rem;
+  z-index: 1;
+  margin-top: 0.5rem;
+  row-gap: 0.8rem;
+  box-shadow: 8px 8px;
+  border: solid black thin;
+  border-radius: 10px;
+}
+
+.mobileDropdown {
+  display: none;
+}
+
+.mobileShow {
+  display: grid;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  padding: 1rem 1.5rem;
+  z-index: 1;
+  right: 5%;
+  margin-top: 0.5rem;
+  row-gap: 0.8rem;
+  border: solid black thin;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.siteHeader {
+  margin-left: 0.5rem;
+  align-self: center;
+}
+
+.navBar {
+  display: flex;
+  font-weight: bold;
+}
+
+.navBar ul {
+  list-style: none;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.navBar button {
+  list-style: none;
+  align-self: center;
+  font-size: 0.8rem;
+  background-color: white;
+  border: 0;
+}
+
+.logoContainer {
+  align-self: center;
+}
